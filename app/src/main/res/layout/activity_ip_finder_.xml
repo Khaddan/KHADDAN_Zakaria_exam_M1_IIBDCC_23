@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="20dp"
+        tools:context="com.example.khaddan_zakaria_exam_m1_iibdcc_23.IpFinderActivity">
+    <EditText
+            android:id="@+id/IpInput"
+            android:layout_width="370dp"
+            android:layout_height="77dp"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="16dp"
+            android:layout_marginEnd="16dp"
+            android:ems="10"
+            android:hint="Ip adress"
+            android:inputType="text"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+    />
+    <Button
+            android:id="@+id/button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:text="show"
+            app:layout_constraintStart_toStartOf="@+id/IpInput"
+            app:layout_constraintTop_toBottomOf="@+id/IpInput"
+    />
+
+    <LinearLayout
+            android:id="@+id/container"
+            android:layout_width="384dp"
+            android:layout_height="455dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp"
+            android:orientation="vertical"
+            android:paddingLeft="10dp"
+            android:paddingTop="10dp"
+            android:paddingRight="10dp"
+            android:paddingBottom="10dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="@+id/IpInput"
+            app:layout_constraintStart_toStartOf="@+id/IpInput"
+            app:layout_constraintTop_toBottomOf="@id/IpInput"
+    ></LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
