@@ -10,31 +10,30 @@
         tools:context="com.example.khaddan_zakaria_exam_m1_iibdcc_23.IpFinderActivity">
     <EditText
             android:id="@+id/IpInput"
-            android:layout_width="370dp"
-            android:layout_height="77dp"
+            android:layout_height="40dp"
+            android:layout_width="0dp"
             android:layout_marginStart="16dp"
             android:layout_marginTop="16dp"
             android:layout_marginEnd="16dp"
             android:ems="10"
-            android:hint="Ip adress"
+            android:hint="@string/ip_address"
             android:inputType="text"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toTopOf="parent"
-    />
+            app:layout_constraintTop_toTopOf="parent" />
     <Button
             android:id="@+id/button"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginTop="10dp"
-            android:text="show"
+            android:text="@string/find"
             app:layout_constraintStart_toStartOf="@+id/IpInput"
             app:layout_constraintTop_toBottomOf="@+id/IpInput"
     />
 
     <LinearLayout
             android:id="@+id/container"
-            android:layout_width="384dp"
+            android:layout_width="0dp"
             android:layout_height="455dp"
             android:layout_marginTop="10dp"
             android:layout_marginBottom="10dp"

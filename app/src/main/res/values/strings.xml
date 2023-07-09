@@ -1,4 +1,19 @@
 <resources>
-    <string name="app_name">Examen</string>
-    <string name="title_activity_maps">MapsActivity</string>
+
+        <string name="app_name" translatable="false">Examen</string>
+        <string name="title_activity_maps">Map</string>
+        <string name="city" translatable="false">City</string>
+        <string name="region">Region</string>
+        <string name="country" translatable="false">Country</string>
+        <string name="show_map">Show Map</string>
+        <string name="ip_address" translatable="false">Ip Address</string>
+        <string name="find" translatable="false">Find</string>
+        <string name="loginpref" translatable="false">loginPref</string>
+        <string name="username">username</string>
+        <string name="password">password</string>
+        <string name="wrong_password">wrong password</string>
+        <string name="user_not_found">user not found</string>
+        <string name="welcome">welcome</string>
+        <string name="login">LOGIN</string>
+
 </resources>

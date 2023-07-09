@@ -1,14 +1,21 @@
 package com.example.khaddan_zakaria_exam_m1_iibdcc_23;
 
-import android.content.Intent;
 import androidx.appcompat.app.AppCompatActivity;
+import androidx.fragment.app.FragmentActivity;
+
+import android.content.Intent;
 import android.os.Bundle;
+
+import com.example.khaddan_zakaria_exam_m1_iibdcc_23.R;
 import com.google.android.gms.maps.CameraUpdateFactory;
 import com.google.android.gms.maps.GoogleMap;
 import com.google.android.gms.maps.MapView;
 import com.google.android.gms.maps.OnMapReadyCallback;
+import com.google.android.gms.maps.SupportMapFragment;
 import com.google.android.gms.maps.model.LatLng;
 import com.google.android.gms.maps.model.MarkerOptions;
+
+
 
 public class MapsActivity extends AppCompatActivity implements OnMapReadyCallback {
 
